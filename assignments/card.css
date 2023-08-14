@@ -1,0 +1,51 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+head,body
+{
+    width: 100%;
+    background-color: black;
+}
+
+.card
+{
+    background-color: rgba(243, 57, 57, 0.685);
+    border-radius: 3px;
+    color: white;
+    height: 500px;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.card h3
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card p
+{
+    padding-bottom: 30px;
+}
+
+.card ul li
+{
+    padding-bottom: 20px;
+}
+
+.card a
+{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 3px;
+}

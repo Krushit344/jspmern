@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Rowspan colspan</title>
+</head>
+
+<body>
+    <table border="2px" cellspacing="5px" cellpadding="20px">
+        <tr align="center">
+            <th colspan="4">Table using Rowspan and Colspan</th>
+        </tr>
+        <tr>
+            <th colspan="4">Khanewal Self Store</th>
+        </tr>
+        <tr>
+            <th>Item/Dese</th>
+            <th>QTY</th>
+            <th>Price/Unit</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Sugar</td>
+            <td>5KG</td>
+            <td>50</td>
+            <td>250</td>
+        </tr>
+        <tr>
+            <td>Cooking Oil</td>
+            <td>2KG</td>
+            <td>200</td>
+            <td>400</td>
+        </tr>
+        <tr>
+            <td>Soap</td>
+            <td>4 Pices</td>
+            <td>40</td>
+            <td>160</td>
+        </tr>
+        <tr>
+            <th colspan="3" align="left">Sub Total</th>
+            <td>810</td>
+        </tr>
+        <tr>
+            <th colspan="2" align="left">Tax</th>
+            <td>5%</td>
+            <td>41</td>
+        </tr>
+        <tr>
+            <th colspan="3" align="left">Total Bill</th>
+            <td>851</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <hr><br><br>
+
+    <table border="3px" rules="all" cellpadding="20px">
+        <tr>
+            <th colspan="5">Room Tarrif</th>
+        </tr>
+        <tr>
+            <th rowspan="3">Room <br> Type</th>
+            <th colspan="2">Delux</th>
+            <th colspan="2">Executive</th>
+        </tr>
+        <tr>
+            <th>AC</th>
+            <th>Non-AC</th>
+            <th>AC</th>
+            <th>Non-AC</th>
+        </tr>
+        <tr>
+            <td>1500</td>
+            <td>1000</td>
+            <td>2500</td>
+            <td>1500</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <hr><br><br>
+
+    <h1 align="center">Time Table</h1>
+
+    <table border cellspacing="10px" cellpadding="15px">
+        <tr>
+            <th>Day/Period</th>
+            <th>I 9:30-10:20</th>
+            <th>II 10:20-11:20</th>
+            <th>III 11:20-12:00</th>
+            <th>12:00-12:40</th>
+            <th>IV 12:40-1:30</th>
+            <th>V 1:30-2:20</th>
+            <th>VI 2:20-3:10</th>
+            <th>VII 3:10-4:00 </th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td>eng</td>
+            <td>math</td>
+            <td>che</td>
+            <th rowspan="5">Lunch</th>
+            <td colspan="3">Lab</td>
+            <td>phy</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Lab</td>
+            <td>eng</td>
+            <td>che</td>
+            <td>math</td>
+            <td>sports</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>math</td>
+            <td>phy</td>
+            <td>eng</td>
+            <td>che</td>
+            <td colspan="3">library</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>phy</td>
+            <td>eng</td>
+            <td>che</td>
+            <td colspan="3">lab</td>
+            <td>math</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td>phy</td>
+            <td>eng</td>
+            <td>che</td>
+            <td colspan="3">lab</td>
+            <td>math</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <hr><br><br>
+
+    <h1 align="center">lan's Time Table</h1>
+
+    <table border cellspacing="10px" rules="all" cellpadding="10px">
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="3"></td>
+            <th colspan="3">Morning</th>
+            <th>Lunch</th>
+            <th colspan="5">Afternoon</th>
+            <th colspan="3">Evening</th>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="3"></td>
+            <td colspan="3" rowspan="3"></td>
+            <td rowspan="3">9- <br> 10 <br> am</td>
+            <td rowspan="3">10- <br> 11 <br> am</td>
+            <td rowspan="3">11- <br> 12 <br> am</td>
+            <td rowspan="3">1-2 <br> pm</td>
+            <td rowspan="3">2- <br> 3 <br> Pm</td>
+            <td rowspan="3">3- <br> 4 <br> Pm</td>
+            <td rowspan="3">4- <br> 5 <br> Pm</td>
+            <td rowspan="3" colspan="2">5-6 pm</td>
+            <td rowspan="3">6- <br> 7 <br> pm</td>
+            <td rowspan="3">7- <br> 8 <br> pm</td>
+            <td rowspan="3">8- <br> 9 <br> pm</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">Work</td>
+            <td colspan="3">Monday</td>
+            <td colspan="3">Development <br> Meeting</td>
+            <td></td>
+            <td colspan="3">Client <br> Meeting</td>
+            <td colspan="2">Commuto</td>
+            <td colspan="3">Free</td>
+        </tr>
+        <tr>
+            <td colspan="3">Tuesday</td>
+            <td colspan="3">In Office</td>
+            <td></td>
+            <td colspan="8">In Office</td>
+        </tr>
+        <tr>
+            <td rowspan="3" colspan="2">Lecture</td>
+            <td colspan="3">Wednesday</td>
+            <td colspan="3">CSC205</td>
+            <td></td>
+            <td colspan="8">Preparation</td>
+        </tr>
+        <tr>
+            <td colspan="3" rowspan="2">Thursday</td>
+            <td colspan="3" rowspan="2">MAM200</td>
+            <td rowspan="2"></td>
+            <td colspan="3" rowspan="2">Tutonals <br> for <br> NAM200</td>
+            <td colspan="5" rowspan="2">Free</td>
+        </tr>
+        <tr>
+            <td colspan="2">Research</td>
+            <td colspan="3">Friday</td>
+            <td colspan="3">Research</td>
+            <td></td>
+            <td colspan="8">Research</td>
+        </tr>
+
+    </table>
+
+    <br><br>
+    <hr><br><br>
+
+    <table border cellspacing="10px" cellpadding="30px">
+        <tr>
+            <td colspan="3">1</td>
+            <td rowspan="3">2</td>
+            <td colspan="2">3</td>
+            <td rowspan="2">N</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td colspan="3">9</td>
+            <td colspan="2">10</td>
+            <td>N</td>
+        </tr>
+        <tr>
+            <td colspan="7">N</td>
+        </tr>
+        <tr>
+            <td>N</td>
+            <td>N</td>
+            <td>N</td>
+            <td>N</td>
+            <td>N</td>
+            <td>N</td>
+            <td>N</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

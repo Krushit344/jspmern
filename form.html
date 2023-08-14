@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="./table.html" method="post">
+        <input type="text" placeholder="username" maxlength="10" required>
+        <input type="password" placeholder="password" minlength="8" required><br><br>
+        <input type="email" placeholder="email" required>
+        <input type="url" placeholder="url" required><br><br>
+        <input type="number" placeholder="age" min="1" required>
+        <label>Adhar card</label>
+        <input type="file" accept=".pdf,.docx"><br><br>
+        <label>Doj :-</label>
+        <input type="date">
+        <label>login time</label>
+        <input type="time">
+        <label>login time:-</label>
+        <input type="datetime-local"><br><br>   
+        <label>Gender :-</label>
+        <input type="radio" name="Gender" id="male" value="Male"><label for="male">Male</label>
+        <input type="radio" name="Gender" id="female" value="Female"><label for="female">Female</label>
+        <input type="radio" name="Gender" id="other" value="Other"><label for="other">Other</label><br><br>
+        <label>Skills :</label>
+        <input type="checkbox" id="java"><label for="java">java</label>
+        <input type="checkbox"><label>javascript</label>
+        <input type="checkbox"><label>sql</label><br><br>
+        <textarea placeholder="address" cols="25" rows="5"></textarea><br><br>
+        <label>Gender</label>
+        <select>
+            <option>male</option>
+            <option>female</option>
+            <option>other</option>
+        </select>
+        <label>Gender</label>
+        <select multiple>
+            <option>male</option>
+            <option>female</option>
+            <option>other</option>
+        </select>
+        <select>
+            <optgroup label="programing">
+                <option>java</option>
+                <option>javascript</option>
+                <option>c++</option>
+            </optgroup>
+            <optgroup label="database">
+                <option>sql</option>
+                <option>mongo</option>
+                <option>my sql</option>
+            </optgroup>
+        </select>
+        <select multiple>
+            <optgroup label="programing">
+                <option>java</option>
+                <option>javascript</option>
+                <option>c++</option>
+            </optgroup>
+            <optgroup label="database">
+                <option>sql</option>
+                <option>mongo</option>
+                <option>my sql</option>
+            </optgroup>
+        </select>
+        <input type="text" placeholder="collegename" list="college">
+        <datalist id="college">   
+            <option>vnsgu</option>
+            <option>bhgavan mahavir</option>
+            <option>sasma</option>
+            <option>spb</option>
+            <option>sd jain</option>
+            <option>drb</option>
+        </datalist>
+        <input type="week">
+        <input type="month">
+        <input type="color">
+        <input type="date" min="2023-01-15">
+
+        <hr>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        
+    </form>
+</body>
+</html>

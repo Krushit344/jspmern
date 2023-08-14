@@ -1,0 +1,302 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+body
+{
+    background-color: white;
+}
+
+.input-btn
+{
+    position: relative;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.input-btn input
+{
+    width: 90%;
+    padding: 10px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.input-btn button
+{
+    border: none;
+    background-color: #E84545;
+    height: 40px;
+    width: 82px;
+    border-radius: 8px;
+    position: absolute;
+    right: 60px;
+    top: 5px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.home-parent
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.482) , rgba(0, 0, 0, 0.482)),
+    url("https://bootstrapmade.com/demo/templates/Append/assets/img/hero-bg.jpg");
+    height: 800px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.home-nav
+{
+    display: flex;
+}
+
+.home-nav h1
+{
+    padding: 30px;
+    padding-right: 160px;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.home-nav ul
+{
+    display: flex;
+    padding: 30px;
+    padding-right: 130px;
+    padding: 40px;
+}
+
+.home-nav ul li
+{
+    padding-left: 30px;
+    color: rgba(240, 248, 255, 0.53);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.home-nav button
+{
+    border: none;
+    background-color: #E84545;
+    height: 35px;
+    width: 130px;
+    border-radius: 7px;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.home-content
+{
+    width: 800px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 70px;
+    padding: 30px;
+}
+
+.home-content h1
+{
+    color: white;
+    font-size: 40px;
+}
+
+.home-content p
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.home-nav ul li:hover
+{
+    color: aliceblue;
+    text-decoration: underline;
+    text-decoration-color: #E84545;
+}
+
+.hover-card-parent
+{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    
+}
+
+.hover-card-content
+{
+    height: 260px;
+    width: 240px;
+    box-shadow: 2px 2px 10px 8px rgba(164, 161, 161, 0.822);
+    padding-left: 20px;
+    border-radius: 6px;
+}
+
+.hover-card-content:hover
+{
+    transform: scale(1.1);
+}
+
+.hover-card-content svg
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.hover-card-content p
+{
+    margin-top: 13px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.team-section
+{
+    background-color: #f4f4f4;
+    height: 1200px;
+    width: 100%;
+}
+
+.profile-team
+{
+    width: 100%;
+    height: 1000px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.person
+{
+    border: 2px solid #E84545;
+    height: 400px;
+    width: 30%;
+    text-align: center;
+}
+
+.person-img
+{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.person img
+{
+    width:100%;
+    height:100%;
+    border-radius: 100%;
+    border: 2px solid white ;
+}
+
+.person h1
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.p-detail
+{
+    font-style: italic;
+    display: block;
+    font-size: 15px;
+    color: #21252999;
+    margin-bottom: 10px;
+}
+
+.img-hover
+{
+    background-color: rgba(0, 0, 0, 0.564);
+    width:100%;
+    height:0%;
+    border-radius: 100%;
+    position: absolute;
+    top: 0%;
+    transition: height .1s;
+}
+
+.person-img:hover .img-hover
+{
+    height: 100%;
+}
+
+
+.portfolio
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolio-main
+{
+    height: 400px;
+    width: 300px;
+    position: relative;
+}
+
+.portfolio-main img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.hover-port
+{
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.906);
+    overflow: hidden;
+    transition: height .2s;
+}
+
+.hover-port svg
+{
+    height: 30px;
+    width: 30px;
+}
+
+.hover-icon
+{
+    margin: 20px;
+}
+.hover-content
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.portfolio-main:hover .hover-port
+{
+    height: 20%;
+}

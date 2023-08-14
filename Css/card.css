@@ -1,0 +1,195 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+/* ..card start.. */
+.my-card
+{
+    height: 500px;
+    width: 400px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.648),rgba(0, 0, 0, 0.676)),
+    url(../pexels-pixabay-147411.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: 40px auto;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.my-card h3
+{
+    margin-top: 220px;
+    margin-bottom: 20px;
+}
+
+.my-card hr
+{
+ background-color: red;
+ border: none;
+ height: 2px;
+ width: 80px;
+ margin-bottom: 20px;
+}
+
+/* ..card end.. */
+
+/* ..profile card Start.. */
+
+.profile-card
+{
+    border: 1px solid gray;
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+    background-image: linear-gradient(white,rgb(45, 33, 5),white);
+    margin-right: 20px;
+}
+
+.parent
+{
+    display: flex;
+    margin: 20px;
+}
+
+
+.profile-card h3
+{
+    margin-top: 20px;
+}
+.profile-card img
+{
+    border-radius: 100%;
+    height: 130px;
+    width: 130px;
+    margin: 40px auto;
+}
+
+.profile-card p
+{
+    font-weight: 600;
+}
+
+/* ..profile card End.. */
+
+/* ..Button Start.. */
+
+.btn
+{  
+    border: none;
+    border-radius: 30px;
+    color: aliceblue;
+    width: 80px;
+    height: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.btn-red
+{
+    background-color: red;
+    box-shadow: 2px 20px 200px 20px red;
+}
+
+.btn-green
+{
+    background-color: green;
+    box-shadow: 2px 20px 200px 20px green;
+}
+
+.btn-yellow
+{
+    background-color: orange;
+    box-shadow: 2px 20px 200px 20px yellow;
+}
+
+.btn-blue
+{
+    background-color: blue;
+    box-shadow: 2px 20px 200px 20px blue;
+}
+
+/* ..Button  */
+
+
+/* ..card1 start.. */
+
+.parent-card1
+{
+    display: flex;
+}
+
+.card1
+{
+    height: 500px;
+    width: 300px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.card1 h2
+{
+    margin: 15px;
+}
+
+.card1 p
+{
+    margin: 15px;
+}
+
+.card1 img 
+{
+    height: 60%;
+    width: 100%;
+}
+
+/* ..card1 end */
+
+
+/* ..card2 start.. */
+
+.card2-parent
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.635),rgba(0, 0, 0, 0.635)),
+    url("https://cdn.pixabay.com/photo/2022/10/05/07/11/temple-7499927_1280.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+}
+
+.card2
+{
+    width: 700px;
+    padding: 60px;
+    height: 400px;
+    margin: 60px auto ;
+}
+
+.card2-btn
+{
+    display: block;
+    border: 2px solid white;
+    border-radius: 3px;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 80px;
+    padding: 12px;
+}
+/* ..card2 end.. */
